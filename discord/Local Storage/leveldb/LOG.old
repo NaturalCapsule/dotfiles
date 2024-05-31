@@ -1,0 +1,8 @@
+2024/05/29-10:50:54.683 2180 Reusing MANIFEST /home/naturalcapsule/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/29-10:50:54.684 2180 Recovering log #16
+2024/05/29-10:50:54.691 2180 Level-0 table #19: started
+2024/05/29-10:50:54.701 2180 Level-0 table #19: 761953 bytes OK
+2024/05/29-10:50:54.705 2180 Delete type=0 #16
+2024/05/29-11:06:20.744 2181 Level-0 table #22: started
+2024/05/29-11:06:20.757 2181 Level-0 table #22: 2340327 bytes OK
+2024/05/29-11:06:20.763 2181 Delete type=0 #20

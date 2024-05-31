@@ -1,0 +1,14 @@
+{
+    "window.menuBarVisibility": "hidden",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Maple mono",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "editor.cursorBlinking": "expand",
+    "window.commandCenter": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 2
+}

@@ -1,0 +1,15 @@
+2024-05-31 22:55:51.463 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-05-31 22:55:51.784 [info] [Info  - 10:55:51 PM] (17670) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-05-31 22:55:51.784 [info] [Info  - 10:55:51 PM] (17670) Server root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-31 22:55:51.787 [info] [Info  - 10:55:51 PM] (17670) Auto-Indent enabled
+2024-05-31 22:55:51.796 [info] [Info  - 10:55:51 PM] (17670) Starting service instance "<default>"
+2024-05-31 22:55:51.812 [info] [Info  - 10:55:51 PM] (17670) Setting pythonPath for service "<default>": "/bin/python"
+2024-05-31 22:55:51.812 [info] [Info  - 10:55:51 PM] (17670) Setting environmentName for service "<default>": "3.12.3 (global)"
+2024-05-31 22:55:51.837 [info] [Info  - 10:55:51 PM] (17670) Assuming Python version 3.12.3.final.0
+2024-05-31 22:55:51.993 [info] [Info  - 10:55:51 PM] (17670) No source files found.
+2024-05-31 22:55:52.009 [info] [Info  - 10:55:52 PM] (17670) Setting pythonPath for service "<default>": "/bin/python"
+2024-05-31 22:55:52.009 [info] [Info  - 10:55:52 PM] (17670) Setting environmentName for service "<default>": "3.12.3 (global)"
+2024-05-31 22:55:52.028 [info] [Info  - 10:55:52 PM] (17670) Assuming Python version 3.12.3.final.0
+2024-05-31 22:55:52.172 [info] [Info  - 10:55:52 PM] (17670) No source files found.
+2024-05-31 22:55:52.277 [info] [Info  - 10:55:52 PM] (17670) Background analysis(1) root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-05-31 22:55:52.277 [info] [Info  - 10:55:52 PM] (17670) Background analysis(1) started

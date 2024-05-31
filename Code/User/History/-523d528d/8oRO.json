@@ -1,0 +1,34 @@
+// {
+//     "window.menuBarVisibility": "hidden",
+//     "workbench.colorTheme": "Catppuccin Mocha",
+//     "workbench.iconTheme": "material-icon-theme",
+//     "editor.fontSize": 17,
+//     "editor.fontFamily": "Maple mono",
+//     "files.autoSave": "afterDelay",
+//     "workbench.activityBar.location": "top",
+//     "window.customTitleBarVisibility": "auto",
+//     "editor.cursorBlinking": "smooth",
+//     "vscode_custom_css.imports": [
+//         "/home/naturalcapsule/python/transparent/vscode-custom.css"
+//     ],
+//     "window.commandCenter": false
+// }
+
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 12,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.minimap.side": "left",
+    "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+    "extensions.autoUpdate": false,
+    "workbench.statusBar.visible": false,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off"
+}

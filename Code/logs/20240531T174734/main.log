@@ -1,0 +1,6 @@
+2024-05-31 17:47:35.030 [info] update#setState idle
+2024-05-31 17:47:52.545 [info] Extension host with pid 1900 exited with code: 0, signal: unknown.
+2024-05-31 17:47:53.545 [error] Extension host with pid 1900 still exists, forcefully killing it...
+2024-05-31 17:48:05.031 [info] update#setState checking for updates
+2024-05-31 17:48:05.120 [info] update#setState idle
+2024-05-31 17:51:34.791 [info] Extension host with pid 2037 exited with code: 0, signal: unknown.

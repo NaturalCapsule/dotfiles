@@ -1,0 +1,37 @@
+2024-05-31 23:16:30.537 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-05-31 23:16:30.537 [info] Auto Sync is enabled.
+2024-05-31 23:16:30.537 [info] Auto Sync: Suspended until auth token is available.
+2024-05-31 23:16:30.744 [info] Deleting non existing profile from backup /home/naturalcapsule/.config/Code/User/sync/settings
+2024-05-31 23:16:31.181 [info] Auto Sync: Triggered by Interval
+2024-05-31 23:16:31.181 [info] Sync started.
+2024-05-31 23:16:31.756 [info] Settings: Last sync resource does not exist locally.
+2024-05-31 23:16:31.866 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:16:31.867 [info] Sync done. Took 686ms
+2024-05-31 23:17:12.699 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:17:12.700 [info] Sync started.
+2024-05-31 23:17:12.799 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:17:12.800 [info] Sync done. Took 100ms
+2024-05-31 23:17:48.400 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:17:48.400 [info] Sync started.
+2024-05-31 23:17:48.498 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:17:48.499 [info] Sync done. Took 100ms
+2024-05-31 23:18:37.519 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:18:37.520 [info] Sync started.
+2024-05-31 23:18:37.614 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:18:37.616 [info] Sync done. Took 96ms
+2024-05-31 23:18:54.299 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:18:54.299 [info] Sync started.
+2024-05-31 23:18:54.400 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:18:54.402 [info] Sync done. Took 103ms
+2024-05-31 23:19:24.322 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:19:24.322 [info] Sync started.
+2024-05-31 23:19:24.458 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:19:24.459 [info] Sync done. Took 137ms
+2024-05-31 23:20:01.693 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:20:01.693 [info] Sync started.
+2024-05-31 23:20:01.789 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:20:01.790 [info] Sync done. Took 97ms
+2024-05-31 23:20:55.098 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:20:55.098 [info] Sync started.
+2024-05-31 23:20:55.194 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:20:55.196 [info] Sync done. Took 99ms

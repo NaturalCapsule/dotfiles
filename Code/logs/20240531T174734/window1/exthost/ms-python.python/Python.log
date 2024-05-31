@@ -1,0 +1,32 @@
+2024-05-31 17:47:57.416 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-31 17:47:57.417 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-31 17:47:57.417 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-31 17:47:57.417 [info] Experiment 'pythonTestAdapter' is active
+2024-05-31 17:47:57.417 [info] Default formatter is set to null for workspace /home/naturalcapsule/python
+2024-05-31 17:47:57.417 [info] Python interpreter path: /bin/python
+2024-05-31 17:47:57.424 [info] > pyenv which python
+2024-05-31 17:47:57.424 [info] cwd: .
+2024-05-31 17:47:57.438 [info] > conda info --json
+2024-05-31 17:47:58.285 [info] Starting Pylance language server.
+2024-05-31 17:47:58.440 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-05-31 17:48:00.229 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:48:01.838 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:48:39.506 [info] Discover tests for workspace name: undefined - uri: /home/naturalcapsule/.config/Code/User/settings.json
+2024-05-31 17:49:25.432 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:49:30.380 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:49:44.663 [info] Discover tests for workspace name: undefined - uri: /home/naturalcapsule/.config/Code/User/settings.json
+2024-05-31 17:49:46.892 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:49:51.009 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:01.497 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:04.393 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:14.841 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:16.219 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:25.713 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:33.831 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:34.267 [info] CreateEnv Trigger - Skipping for /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:34.352 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:56.440 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:50:57.740 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:51:01.112 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-05-31 17:51:06.581 [info] Discover tests for workspace name: undefined - uri: /home/naturalcapsule/.config/Code/User/settings.json
+2024-05-31 17:51:10.489 [info] Discover tests for workspace name: undefined - uri: /home/naturalcapsule/.config/Code/User/settings.json

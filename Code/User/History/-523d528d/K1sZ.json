@@ -1,0 +1,14 @@
+{
+    "window.menuBarVisibility": "hidden",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "Maple mono",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "editor.cursorBlinking": "smooth"
+}
+"vscode_custom_css.imports": [
+    "file:///path/to/your/vscode-custom.css"
+]
