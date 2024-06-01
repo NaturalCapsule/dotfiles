@@ -1,0 +1,29 @@
+2024-06-01 22:55:25.775 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-06-01 22:55:25.775 [info] Auto Sync is enabled.
+2024-06-01 22:55:25.775 [info] Auto Sync: Suspended until auth token is available.
+2024-06-01 22:55:25.887 [info] Deleting non existing profile from backup /home/naturalcapsule/.config/Code/User/sync/settings
+2024-06-01 22:55:26.653 [info] Auto Sync: Triggered by Interval
+2024-06-01 22:55:26.653 [info] Sync started.
+2024-06-01 22:55:27.165 [info] Settings: Last sync resource does not exist locally.
+2024-06-01 22:55:27.291 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 22:55:27.292 [info] Sync done. Took 639ms
+2024-06-01 22:55:45.463 [info] Auto Sync: Triggered by Activity
+2024-06-01 22:55:45.463 [info] Sync started.
+2024-06-01 22:55:45.551 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 22:55:45.552 [info] Sync done. Took 88ms
+2024-06-01 22:55:59.712 [info] Auto Sync: Triggered by Activity
+2024-06-01 22:55:59.712 [info] Sync started.
+2024-06-01 22:55:59.801 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 22:55:59.802 [info] Sync done. Took 90ms
+2024-06-01 22:56:18.610 [info] Auto Sync: Triggered by Activity
+2024-06-01 22:56:18.610 [info] Sync started.
+2024-06-01 22:56:18.702 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 22:56:18.702 [info] Sync done. Took 92ms
+2024-06-01 22:56:44.624 [info] Auto Sync: Triggered by Activity
+2024-06-01 22:56:44.624 [info] Sync started.
+2024-06-01 22:56:44.713 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 22:56:44.714 [info] Sync done. Took 91ms
+2024-06-01 23:00:54.193 [info] Auto Sync: Triggered by Activity
+2024-06-01 23:00:54.194 [info] Sync started.
+2024-06-01 23:00:54.578 [info] Settings: No changes found during synchronizing settings.
+2024-06-01 23:00:54.579 [info] Sync done. Took 386ms

@@ -1,0 +1,25 @@
+2024-06-01 23:01:43.069 [info] (Client) Pylance async client (2024.5.1) started with python extension (2024.6.0)
+2024-06-01 23:01:43.426 [info] [Info  - 11:01:43 PM] (4455) Pylance language server 2024.5.1 (pyright version 1.1.360, commit 4bc8428d) starting
+2024-06-01 23:01:43.426 [info] [Info  - 11:01:43 PM] (4455) Server root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-01 23:01:43.430 [info] [Info  - 11:01:43 PM] (4455) Starting service instance "python"
+2024-06-01 23:01:43.434 [info] [Info  - 11:01:43 PM] (4455) Auto-Indent enabled
+2024-06-01 23:01:43.457 [info] [Info  - 11:01:43 PM] (4455) Setting pythonPath for service "python": "/bin/python"
+2024-06-01 23:01:43.457 [info] [Info  - 11:01:43 PM] (4455) Setting environmentName for service "python": "3.12.3 (global)"
+2024-06-01 23:01:43.477 [info] [Info  - 11:01:43 PM] (4455) Assuming Python version 3.12.3.final.0
+2024-06-01 23:01:43.599 [info] [Info  - 11:01:43 PM] (4455) Found 31 source files
+2024-06-01 23:01:43.733 [info] [Info  - 11:01:43 PM] (4455) Background analysis(1) root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist
+2024-06-01 23:01:43.733 [info] [Info  - 11:01:43 PM] (4455) Background analysis(1) started
+2024-06-01 23:01:43.892 [info] [Info  - 11:01:43 PM] (4455) Indexer background runner(2) root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-06-01 23:01:43.892 [info] [Info  - 11:01:43 PM] (4455) Indexing(2) started
+2024-06-01 23:01:44.235 [info] [Info  - 11:01:44 PM] (4455) scanned(2) 189 files over 1 exec env
+2024-06-01 23:01:44.364 [info] [Info  - 11:01:44 PM] (4455) indexed(2) 139 files over 1 exec env
+2024-06-01 23:01:44.395 [info] [Info  - 11:01:44 PM] (4455) Indexing finished(2).
+2024-06-01 23:09:03.434 [info] [Info  - 11:09:03 PM] (4455) Setting pythonPath for service "python": "/bin/python"
+2024-06-01 23:09:03.434 [info] [Info  - 11:09:03 PM] (4455) Setting environmentName for service "python": "3.12.3 (global)"
+2024-06-01 23:09:03.455 [info] [Info  - 11:09:03 PM] (4455) Assuming Python version 3.12.3.final.0
+2024-06-01 23:09:03.615 [info] [Info  - 11:09:03 PM] (4455) Found 31 source files
+2024-06-01 23:09:03.932 [info] [Info  - 11:09:03 PM] (4455) Indexer background runner(3) root directory: file:///home/naturalcapsule/.vscode/extensions/ms-python.vscode-pylance-2024.5.1/dist (index)
+2024-06-01 23:09:03.932 [info] [Info  - 11:09:03 PM] (4455) Indexing(3) started
+2024-06-01 23:09:04.116 [info] [Info  - 11:09:04 PM] (4455) scanned(3) 189 files over 1 exec env
+2024-06-01 23:09:04.268 [info] [Info  - 11:09:04 PM] (4455) indexed(3) 139 files over 1 exec env
+2024-06-01 23:09:04.289 [info] [Info  - 11:09:04 PM] (4455) Indexing finished(3).

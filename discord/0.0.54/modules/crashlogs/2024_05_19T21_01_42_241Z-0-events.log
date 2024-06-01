@@ -126,3 +126,17 @@
 2024-05-29T14:41:17.525Z 10: window.closed win1
 2024-05-29T15:19:34.731Z 11: window.close win2
 2024-05-29T15:33:45.004Z 12: before-quit
+2024-06-01T19:56:10.865Z 0: 
+
+----------------------------------------------
+2024-06-01T19:56:10.877Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/naturalcapsule/.config/discord/0.0.54/modules
+2024-06-01T19:56:10.880Z 2: ✅ webContents.created web1 ""
+2024-06-01T19:56:10.883Z 3: ✅ window.created win1 "discord"
+2024-06-01T19:56:11.212Z 4: ✅ webContents.did-finish-load web1
+2024-06-01T19:56:11.753Z 5: ✅ webContents.created web2 ""
+2024-06-01T19:56:11.755Z 6: ✅ window.created win2 "Discord"
+2024-06-01T19:56:13.549Z 7: ✅ webContents.did-finish-load web2
+2024-06-01T19:56:13.648Z 8: window.close win1
+2024-06-01T19:56:13.670Z 9: webContents.destroyed web1
+2024-06-01T19:56:13.674Z 10: window.closed win1
+2024-06-01T20:01:39.240Z 11: window.close win2

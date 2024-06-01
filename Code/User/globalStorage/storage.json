@@ -6,30 +6,29 @@
             "file:///": "__default__profile__",
             "file:///home/naturalcapsule/python": "__default__profile__"
         },
-        "emptyWindows": {
-            "1717186590136": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
     "telemetry.machineId": "ec7c865aac9e45fb082d118ccf3b39467384f215a43b8dc0546d7dbcbae813b6",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1717186590136"
+                "folderUri": "file:///home/naturalcapsule/python"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/naturalcapsule/.config/Code/Backups/1717186590136",
+            "folder": "file:///home/naturalcapsule/python",
+            "backupPath": "/home/naturalcapsule/.config/Code/Backups/1257622ad402733d65cc6c00e2ecca87",
             "uiState": {
                 "mode": 1,
                 "x": 22,
                 "y": 68,
-                "width": 1240,
+                "width": 2516,
                 "height": 1350,
                 "zoomLevel": 1
             }
@@ -74,8 +73,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -120,6 +118,28 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/naturalcapsule/Downloads/Clean_Dataset.csv",
+                                        "path": "/home/naturalcapsule/Downloads/Clean_Dataset.csv",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Clean_Dataset.csv"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/naturalcapsule/.config/hypr/hyprland.conf",
+                                        "path": "/home/naturalcapsule/.config/hypr/hyprland.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr/hyprland.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/naturalcapsule/.config/readme.md",
                                         "path": "/home/naturalcapsule/.config/readme.md",
                                         "scheme": "file"
@@ -137,17 +157,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/waybar/config"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/naturalcapsule/.config/hypr/hyprland.conf",
-                                        "path": "/home/naturalcapsule/.config/hypr/hyprland.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/hypr/hyprland.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -216,17 +225,6 @@
                                     "label": "~/.config/kitty/kitty.conf"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/naturalcapsule/.config/picom.conf",
-                                        "path": "/home/naturalcapsule/.config/picom.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/picom.conf"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -282,6 +280,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -417,6 +422,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -611,7 +620,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -905,6 +915,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -928,8 +942,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -937,8 +950,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1464,6 +1476,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1634,8 +1651,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1861,7 +1879,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 30,
             "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "sideBarWidth": 251,
             "statusBarHeight": 22,
             "windowBorder": false
         }

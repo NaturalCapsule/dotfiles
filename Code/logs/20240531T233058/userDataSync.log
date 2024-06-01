@@ -1,0 +1,109 @@
+2024-05-31 23:30:59.536 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-05-31 23:30:59.536 [info] Auto Sync is enabled.
+2024-05-31 23:30:59.536 [info] Auto Sync: Suspended until auth token is available.
+2024-05-31 23:30:59.732 [info] Deleting non existing profile from backup /home/naturalcapsule/.config/Code/User/sync/settings
+2024-05-31 23:31:00.310 [info] Auto Sync: Triggered by Interval
+2024-05-31 23:31:00.310 [info] Sync started.
+2024-05-31 23:31:00.751 [info] Settings: Last sync resource does not exist locally.
+2024-05-31 23:31:00.908 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:31:00.909 [info] Sync done. Took 599ms
+2024-05-31 23:31:34.884 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:31:34.884 [info] Sync started.
+2024-05-31 23:31:34.984 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:31:34.987 [info] Sync done. Took 103ms
+2024-05-31 23:33:25.005 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:33:25.005 [info] Sync started.
+2024-05-31 23:33:25.099 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:33:25.101 [info] Sync done. Took 96ms
+2024-05-31 23:34:33.011 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:34:33.011 [info] Sync started.
+2024-05-31 23:34:33.111 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:34:33.111 [info] Sync done. Took 101ms
+2024-05-31 23:35:31.785 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:35:31.786 [info] Sync started.
+2024-05-31 23:35:31.880 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:35:31.880 [info] Sync done. Took 95ms
+2024-05-31 23:36:06.265 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:36:06.266 [info] Sync started.
+2024-05-31 23:36:06.376 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:36:06.377 [info] Sync done. Took 111ms
+2024-05-31 23:36:19.673 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:36:19.673 [info] Sync started.
+2024-05-31 23:36:19.770 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:36:19.771 [info] Sync done. Took 98ms
+2024-05-31 23:37:01.217 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:37:01.217 [info] Sync started.
+2024-05-31 23:37:01.318 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:37:01.319 [info] Sync done. Took 102ms
+2024-05-31 23:37:33.431 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:37:33.432 [info] Sync started.
+2024-05-31 23:37:33.526 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:37:33.527 [info] Sync done. Took 95ms
+2024-05-31 23:37:48.457 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:37:48.457 [info] Sync started.
+2024-05-31 23:37:48.550 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:37:48.551 [info] Sync done. Took 93ms
+2024-05-31 23:38:11.496 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:38:11.496 [info] Sync started.
+2024-05-31 23:38:11.592 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:38:11.593 [info] Sync done. Took 97ms
+2024-05-31 23:38:25.325 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:38:25.325 [info] Sync started.
+2024-05-31 23:38:25.414 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:38:25.415 [info] Sync done. Took 90ms
+2024-05-31 23:38:38.855 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:38:38.855 [info] Sync started.
+2024-05-31 23:38:38.948 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:38:38.949 [info] Sync done. Took 94ms
+2024-05-31 23:38:50.601 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:38:50.601 [info] Sync started.
+2024-05-31 23:38:50.693 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:38:50.694 [info] Sync done. Took 94ms
+2024-05-31 23:39:19.623 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:39:19.623 [info] Sync started.
+2024-05-31 23:39:19.726 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:39:19.726 [info] Sync done. Took 104ms
+2024-05-31 23:40:46.199 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:40:46.199 [info] Sync started.
+2024-05-31 23:40:46.290 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:40:46.291 [info] Sync done. Took 93ms
+2024-05-31 23:41:29.069 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:41:29.069 [info] Sync started.
+2024-05-31 23:41:29.173 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:41:29.174 [info] Sync done. Took 105ms
+2024-05-31 23:45:06.939 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:45:06.939 [info] Sync started.
+2024-05-31 23:45:07.372 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:45:07.373 [info] Sync done. Took 434ms
+2024-05-31 23:45:59.659 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:45:59.659 [info] Sync started.
+2024-05-31 23:45:59.765 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:45:59.766 [info] Sync done. Took 108ms
+2024-05-31 23:46:12.125 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:46:12.125 [info] Sync started.
+2024-05-31 23:46:12.219 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:46:12.219 [info] Sync done. Took 95ms
+2024-05-31 23:46:52.759 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:46:52.759 [info] Sync started.
+2024-05-31 23:46:52.862 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:46:52.863 [info] Sync done. Took 103ms
+2024-05-31 23:47:11.255 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:47:11.255 [info] Sync started.
+2024-05-31 23:47:11.385 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:47:11.386 [info] Sync done. Took 130ms
+2024-05-31 23:48:05.143 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:48:05.143 [info] Sync started.
+2024-05-31 23:48:05.236 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:48:05.237 [info] Sync done. Took 94ms
+2024-05-31 23:48:52.816 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:48:52.816 [info] Sync started.
+2024-05-31 23:48:52.912 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:48:52.913 [info] Sync done. Took 98ms
+2024-05-31 23:49:35.068 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:49:35.068 [info] Sync started.
+2024-05-31 23:49:35.161 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:49:35.162 [info] Sync done. Took 95ms
+2024-05-31 23:52:03.091 [info] Auto Sync: Triggered by Activity
+2024-05-31 23:52:03.091 [info] Sync started.
+2024-05-31 23:52:03.488 [info] Settings: No changes found during synchronizing settings.
+2024-05-31 23:52:03.489 [info] Sync done. Took 399ms

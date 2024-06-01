@@ -1,0 +1,29 @@
+2024-05-31 23:52:17.418 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-05-31 23:52:17.418 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-31 23:52:17.418 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-31 23:52:17.418 [info] Experiment 'pythonTestAdapter' is active
+2024-05-31 23:52:17.418 [info] Default formatter is set to null for workspace /home/naturalcapsule/python
+2024-05-31 23:52:17.418 [info] > conda info --json
+2024-05-31 23:52:17.418 [info] > hatch env show --json
+2024-05-31 23:52:17.418 [info] cwd: .
+2024-05-31 23:52:17.418 [info] Python interpreter path: /bin/python
+2024-05-31 23:52:17.423 [info] > pyenv which python
+2024-05-31 23:52:17.423 [info] cwd: .
+2024-05-31 23:52:17.455 [info] Found: /bin/python --> /bin/python3.12
+2024-05-31 23:52:17.484 [info] Found: /bin/python3 --> /bin/python3.12
+2024-05-31 23:52:17.485 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-05-31 23:52:17.519 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-31 23:52:17.522 [info] Found: /sbin/python --> /sbin/python3.12
+2024-05-31 23:52:17.530 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-05-31 23:52:17.531 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-05-31 23:52:17.533 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-05-31 23:52:17.533 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-05-31 23:52:17.533 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-05-31 23:52:17.543 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-05-31 23:52:17.543 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-05-31 23:52:17.543 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-05-31 23:52:17.550 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-31 23:52:17.594 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-31 23:52:17.600 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-05-31 23:52:18.411 [info] Starting Pylance language server.
+2024-05-31 23:52:18.529 [warning] Shell integration may not be active, environment activated may be overridden by the shell.

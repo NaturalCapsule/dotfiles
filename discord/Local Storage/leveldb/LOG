@@ -1,17 +1,9 @@
-2024/05/29-17:41:14.585 707 Reusing MANIFEST /home/naturalcapsule/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/05/29-17:41:14.588 707 Recovering log #21
-2024/05/29-17:41:14.588 707 Reusing old log /home/naturalcapsule/.config/discord/Local Storage/leveldb/000021.log 
-2024/05/29-17:43:52.754 708 Level-0 table #25: started
-2024/05/29-17:43:52.765 708 Level-0 table #25: 767684 bytes OK
-2024/05/29-17:43:52.769 708 Delete type=0 #21
-2024/05/29-17:43:52.770 708 Compacting 4@0 + 2@1 files
-2024/05/29-17:43:52.783 708 Generated table #26@0: 11 keys, 2331673 bytes
-2024/05/29-17:43:52.802 708 Generated table #27@0: 82 keys, 3098658 bytes
-2024/05/29-17:43:52.802 708 Compacted 4@0 + 2@1 files => 5430331 bytes
-2024/05/29-17:43:52.805 708 compacted to: files[ 0 3 0 0 0 0 0 ]
-2024/05/29-17:43:52.805 708 Delete type=2 #13
-2024/05/29-17:43:52.805 708 Delete type=2 #14
-2024/05/29-17:43:52.805 708 Delete type=2 #17
-2024/05/29-17:43:52.805 708 Delete type=2 #19
-2024/05/29-17:43:52.805 708 Delete type=2 #22
-2024/05/29-17:43:52.805 708 Delete type=2 #25
+2024/06/01-22:56:10.837 b3a Reusing MANIFEST /home/naturalcapsule/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/06/01-22:56:10.838 b3a Recovering log #24
+2024/06/01-22:56:10.838 b3a Reusing old log /home/naturalcapsule/.config/discord/Local Storage/leveldb/000024.log 
+2024/06/01-23:00:41.341 b3b Level-0 table #30: started
+2024/06/01-23:00:41.360 b3b Level-0 table #30: 777900 bytes OK
+2024/06/01-23:00:41.366 b3b Delete type=0 #24
+2024/06/01-23:01:11.904 b3b Level-0 table #32: started
+2024/06/01-23:01:11.921 b3b Level-0 table #32: 2343236 bytes OK
+2024/06/01-23:01:11.927 b3b Delete type=0 #29

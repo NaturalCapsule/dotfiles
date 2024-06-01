@@ -4,3 +4,5 @@
     at /home/naturalcapsule/.vscode/extensions/leonardssh.vscord-5.2.10/node_modules/.pnpm/@xhayper+discord-rpc@1.1.2/node_modules/@xhayper/discord-rpc/dist/transport/IPC.js:111:20
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
 [11:16:31 PM] [INFO] [002] Destroyed Discord RPC client
+[11:30:52 PM] [INFO] Discord Rich Presence for VS Code deactivated.
+[11:30:52 PM] [INFO] [004] Destroyed Discord RPC client

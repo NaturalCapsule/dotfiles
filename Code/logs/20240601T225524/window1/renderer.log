@@ -1,0 +1,5 @@
+2024-06-01 22:55:25.232 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/naturalcapsule/Downloads/Clean_Dataset.csv","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-06-01 22:55:25.520 [info] Started local extension host with pid 2292.
+2024-06-01 22:55:28.354 [info] [perf] Render performance baseline is 26ms
+2024-06-01 22:55:51.996 [info] Started local extension host with pid 2449.
+2024-06-01 22:55:54.883 [info] [perf] Render performance baseline is 18ms

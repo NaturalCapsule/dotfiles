@@ -1,0 +1,23 @@
+2024-06-01 23:01:42.483 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-01 23:01:42.483 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-01 23:01:42.483 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-01 23:01:42.483 [info] Experiment 'pythonTestAdapter' is active
+2024-06-01 23:01:42.483 [info] Default formatter is set to null for workspace /home/naturalcapsule/python
+2024-06-01 23:01:42.483 [info] Python interpreter path: /bin/python
+2024-06-01 23:01:42.497 [info] > pyenv which python
+2024-06-01 23:01:42.497 [info] cwd: .
+2024-06-01 23:01:42.560 [info] > conda info --json
+2024-06-01 23:01:43.439 [info] Starting Pylance language server.
+2024-06-01 23:01:43.522 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-06-01 23:01:50.626 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:01:55.180 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:01:56.333 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:09.512 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:13.646 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:22.575 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:27.980 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:33.539 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:02:35.375 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:08:56.140 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:09:00.074 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:09:02.863 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py

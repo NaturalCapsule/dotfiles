@@ -1,0 +1,33 @@
+Visual Studio Code (1.89.1, undefined, desktop)
+Jupyter Extension Version: 2024.4.0.
+Python Extension Version: 2024.6.0.
+Pylance Extension Version: 2024.5.1.
+Platform: linux (x64).
+Workspace folder ~/python, Home = /home/naturalcapsule
+23:42:17.983 [info] Handle Execution of Cells 1 for ~/python/classification/classification.ipynb
+23:42:17.986 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, Python 3.12.3, 3.12.3) for '~/python/classification/classification.ipynb' (disableUI=false)
+23:42:18.011 [warn] Failed to get activated env vars for /bin/python in 26ms
+23:42:18.012 [warn] Failed to get activated env vars for /bin/python in 19ms
+23:42:18.018 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+23:42:18.035 [info] Process Execution: /bin/python -m pip list
+23:42:18.038 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:42:18.042 [info] Process Execution: /bin/python -m ipykernel_launcher --f=/home/~/.local/share/jupyter/runtime/kernel-v2-4083cR5kt3PV6n3R.json
+    > cwd: //home/~/python/classification
+23:42:18.699 [info] Process Execution: /bin/python /home/~/.vscode/extensions/ms-toolsai.jupyter-2024.4.0-linux-x64/pythonFiles/printJupyterDataDir.py
+23:42:19.103 [info] Cell 1 completed in 0.399s (start: 1717188138704, end: 1717188139103)
+23:42:43.288 [info] Handle Execution of Cells 3 for ~/python/classification/classification.ipynb
+23:42:44.097 [info] Cell 3 completed in 0.806s (start: 1717188163291, end: 1717188164097)
+23:43:04.760 [info] Handle Execution of Cells 5 for ~/python/classification/classification.ipynb
+23:43:04.787 [info] Cell 5 completed in 0.025s (start: 1717188184762, end: 1717188184787)
+23:43:19.092 [info] Handle Execution of Cells 7 for ~/python/classification/classification.ipynb
+23:43:19.213 [info] Cell 7 completed in 0.118s (start: 1717188199095, end: 1717188199213)
+23:43:22.392 [info] Handle Execution of Cells 7 for ~/python/classification/classification.ipynb
+23:43:22.476 [info] Cell 7 completed in 0.08s (start: 1717188202396, end: 1717188202476)
+23:43:37.784 [info] Handle Execution of Cells 9 for ~/python/classification/classification.ipynb
+23:43:41.031 [info] Cell 9 completed in 3.244s (start: 1717188217787, end: 1717188221031)
+23:43:53.330 [info] Handle Execution of Cells 11 for ~/python/classification/classification.ipynb
+23:43:53.338 [info] Cell 11 completed in 0.004s (start: 1717188233334, end: 1717188233338)
+23:44:07.349 [info] Handle Execution of Cells 13 for ~/python/classification/classification.ipynb
+23:44:58.976 [info] Cell 13 completed in 51.623s (start: 1717188247353, end: 1717188298976)
+23:47:15.823 [info] Handle Execution of Cells 14 for ~/python/classification/classification.ipynb
+23:47:15.828 [info] Cell 14 completed in 0.002s (start: 1717188435826, end: 1717188435828)

@@ -1,0 +1,12 @@
+2024-06-01 23:01:13.294 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-01 23:01:13.294 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-01 23:01:13.294 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-01 23:01:13.294 [info] Experiment 'pythonTestAdapter' is active
+2024-06-01 23:01:13.294 [info] Default formatter is set to null for workspace /home/naturalcapsule/python
+2024-06-01 23:01:13.294 [info] Python interpreter path: /bin/python
+2024-06-01 23:01:13.303 [info] > pyenv which python
+2024-06-01 23:01:13.303 [info] cwd: .
+2024-06-01 23:01:13.330 [info] > conda info --json
+2024-06-01 23:01:14.196 [info] Starting Pylance language server.
+2024-06-01 23:01:14.333 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-06-01 23:01:28.221 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
