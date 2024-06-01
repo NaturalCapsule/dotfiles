@@ -57,3 +57,7 @@
 2024-06-01 23:09:06.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 693
 2024-06-01 23:17:08.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 733
 2024-06-01 23:28:56.219 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2024-06-01 23:30:33.923 [warning] TextEditor is closed/disposed
+2024-06-01 23:30:39.228 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2024-06-01 23:30:39.287 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2024-06-01 23:30:39.288 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'

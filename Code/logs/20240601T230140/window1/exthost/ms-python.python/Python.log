@@ -158,3 +158,21 @@
 2024-06-01 23:26:25.856 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
 2024-06-01 23:26:33.557 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
 2024-06-01 23:26:34.726 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:30:39.260 [info] > hatch env show --json
+2024-06-01 23:30:39.260 [info] cwd: .
+2024-06-01 23:30:39.306 [info] Found: /bin/python --> /bin/python3.12
+2024-06-01 23:30:39.311 [info] Found: /bin/python3 --> /bin/python3.12
+2024-06-01 23:30:39.314 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-06-01 23:30:39.338 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-06-01 23:30:39.375 [info] Found: /sbin/python --> /sbin/python3.12
+2024-06-01 23:30:39.376 [info] Found: /sbin/python3 --> /sbin/python3.12
+2024-06-01 23:30:39.376 [info] Found: /sbin/python3.12 --> /sbin/python3.12
+2024-06-01 23:30:39.378 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2024-06-01 23:30:39.378 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-06-01 23:30:39.379 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-06-01 23:30:39.394 [info] Found: /usr/sbin/python --> /usr/sbin/python3.12
+2024-06-01 23:30:39.394 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.12
+2024-06-01 23:30:39.394 [info] Found: /usr/sbin/python3.12 --> /usr/sbin/python3.12
+2024-06-01 23:30:39.410 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-06-01 23:30:39.422 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py
+2024-06-01 23:30:39.453 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.6.0/python_files/interpreterInfo.py

@@ -19,3 +19,5 @@
 2024-06-01 23:05:12.173 [info] Added views:gitlens.views.graph,gitlens.views.graphDetails in workbench.view.extension.gitlensPanel
 2024-06-01 23:05:12.177 [info] Added views:gitlens.views.commitDetails,gitlens.views.lineHistory,gitlens.views.fileHistory,gitlens.views.timeline,gitlens.views.searchAndCompare in workbench.view.extension.gitlensInspect
 2024-06-01 23:05:12.178 [info] Added views:gitlens.views.commits,gitlens.views.branches,gitlens.views.remotes,gitlens.views.stashes,gitlens.views.tags,gitlens.views.worktrees,gitlens.views.contributors in workbench.view.scm
+2024-06-01 23:30:39.266 [info] Added views:jupyterViewVariables in workbench.view.extension.jupyter-variables
+2024-06-01 23:30:39.297 [info] Added views:cell-tag in workbench.view.extension.jupyter-variables
