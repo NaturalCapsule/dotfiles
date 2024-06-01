@@ -1,3 +1,0 @@
-GitLens v15.0.4 activating in Visual Studio Code (1.89.1) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (ec7c865aac9e45fb082d118ccf3b39467384f215a43b8dc0546d7dbcbae813b6|1076e2c0-651d-41c3-aeb1-c44e09670e7a1717187459208)
-To enable debug logging, set `"gitlens.outputLevel: "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette[2024-05-31 20:31:06.031] ServerConnection.getAccessToken
-Error: Authentication required

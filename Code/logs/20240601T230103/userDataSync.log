@@ -1,9 +1,0 @@
-2024-06-01 23:01:04.891 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
-2024-06-01 23:01:04.891 [info] Auto Sync is enabled.
-2024-06-01 23:01:04.891 [info] Auto Sync: Suspended until auth token is available.
-2024-06-01 23:01:04.999 [info] Deleting non existing profile from backup /home/naturalcapsule/.config/Code/User/sync/settings
-2024-06-01 23:01:06.028 [info] Auto Sync: Triggered by Interval
-2024-06-01 23:01:06.028 [info] Sync started.
-2024-06-01 23:01:06.460 [info] Settings: Last sync resource does not exist locally.
-2024-06-01 23:01:06.571 [info] Settings: No changes found during synchronizing settings.
-2024-06-01 23:01:06.574 [info] Sync done. Took 545ms

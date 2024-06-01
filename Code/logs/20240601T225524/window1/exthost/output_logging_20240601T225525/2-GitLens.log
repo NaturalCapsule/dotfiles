@@ -1,5 +1,0 @@
-GitLens v15.0.4 activating in Visual Studio Code (1.89.1) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (ec7c865aac9e45fb082d118ccf3b39467384f215a43b8dc0546d7dbcbae813b6|7ef40f3c-e41a-4f46-8803-656f0e213fa71717271725206)
-To enable debug logging, set `"gitlens.outputLevel: "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-[2024-06-01 19:55:27.775] [GIT  ] [/home/naturalcapsule/Downloads] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [169ms]
-[2024-06-01 19:55:32.788] ServerConnection.getAccessToken
-Error: Authentication required
