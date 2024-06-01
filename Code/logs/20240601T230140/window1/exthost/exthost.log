@@ -55,3 +55,5 @@
 2024-06-01 23:08:56.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 693
 2024-06-01 23:09:01.565 [warning] [Decorations] CAPPING events from decorations provider vscode.git 693
 2024-06-01 23:09:06.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 693
+2024-06-01 23:17:08.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 733
+2024-06-01 23:28:56.219 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'

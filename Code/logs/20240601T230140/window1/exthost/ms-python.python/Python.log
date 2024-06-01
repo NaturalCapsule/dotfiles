@@ -21,3 +21,140 @@
 2024-06-01 23:08:56.140 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
 2024-06-01 23:09:00.074 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
 2024-06-01 23:09:02.863 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:02.772 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:06.401 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:49.226 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:52.939 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:54.961 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:58.223 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:59.426 [info] CreateEnv Trigger - Skipping for /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:10:59.500 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:36.693 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:38.677 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:42.966 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:49.610 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:51.502 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:53.316 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:11:59.227 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:00.352 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:03.539 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:06.525 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:08.754 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:15.677 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:25.592 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:26.352 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:34.204 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:40.331 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:44.492 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:12:48.773 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:00.051 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:17.588 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:21.689 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:24.404 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:27.929 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:29.858 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:39.199 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:39.588 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:56.715 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:56.966 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:13:57.625 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:14:35.190 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:14:46.588 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:14:49.491 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:14:56.026 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:14:58.292 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:07.844 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:12.172 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:13.531 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:16.041 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:18.679 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:25.179 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:25.422 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:41.862 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:44.993 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:51.677 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:55.203 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:15:59.667 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:05.856 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:06.937 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:10.705 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:20.046 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:21.731 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:22.307 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:42.327 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:16:42.604 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:17:06.174 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:17:08.588 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:17:31.702 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:18:43.913 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:18:44.939 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:02.538 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:05.864 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:17.357 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:30.102 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:33.801 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:37.258 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:38.279 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:40.114 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:41.333 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:46.688 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:50.696 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:53.682 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:56.414 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:59.580 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:19:59.919 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:09.110 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:13.071 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:17.372 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:21.333 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:23.969 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:27.288 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:28.757 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:31.920 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:36.779 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:43.370 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:48.229 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:54.646 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:20:57.124 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:16.214 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:24.393 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:24.432 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:39.522 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:40.289 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:47.903 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:51.552 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:21:52.033 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:19.601 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:23.545 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:24.589 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:31.108 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:32.716 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:33.938 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:34.069 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:22:45.751 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:05.130 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:24.746 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:39.483 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:42.784 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:44.948 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:52.616 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:23:53.272 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:08.214 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:26.153 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:27.229 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:36.721 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:48.458 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:55.395 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:24:55.567 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:07.661 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:13.227 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:29.150 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:37.895 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:50.112 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:25:53.497 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:01.906 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:11.018 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:13.120 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:25.856 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:33.557 [info] Discover tests for workspace name: python - uri: /home/naturalcapsule/python/MyProject.py
+2024-06-01 23:26:34.726 [info] Send text to terminal: /bin/python /home/naturalcapsule/python/MyProject.py
