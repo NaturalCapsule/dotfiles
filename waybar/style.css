@@ -56,7 +56,7 @@ tooltip label {
 
 #workspaces button.occupied {
 	transition: none;
-	color: #89DCEB;
+	color: #5C7BB9;
 	background: transparent;
 	font-size: 4px;
 }
@@ -71,13 +71,13 @@ tooltip label {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #4895EF;
-    border-color: #4895EF;
-    color: #4895EF;
+	color: #5C7BB9;
+    border-color: #5C7BB9;
+    color: #5C7BB9;
 }
 
 #workspaces button.focused:hover {
-    color: #4895EF;
+    color: #5C7BB9;
 }
 
 /* Rest of the styles remain the same */
@@ -137,7 +137,7 @@ tooltip label {
 @keyframes blink {
     to {
         background-color: #BF616A;
-        color: #B5E8E0;
+        color: #5C7BB9;
     }
 }
 
@@ -161,7 +161,7 @@ tooltip label {
 	border-radius: 10px;
 	transition: none;
 	color: #161320;
-	background: #89DCEB;
+	background: #5C7BB9;
 	/*background: #1A1826;*/
 }
 
@@ -185,7 +185,7 @@ tooltip label {
 	border-radius: 10px;
 	transition: none;
 	color: #161320;
-	background: #96CDFB;
+	background: #5C7BB9;
 }
 
 #tray {
@@ -208,7 +208,7 @@ tooltip label {
 	padding-right: 10px;
 	border-radius: 15px;
 	transition: none;
-    color: #89DCEB;
+    color: #5C7BB9;
     background: #161320;
 }
 
