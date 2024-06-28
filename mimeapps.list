@@ -1,8 +1,0 @@
-[Added Associations]
-application/x-shellscript=code.desktop;vim-2.desktop;
-text/x-csrc=code.desktop;
-application/x-zerosize=code.desktop;vim.desktop;
-
-[Default Applications]
-application/x-shellscript=vim-2.desktop;
-application/x-zerosize=vim.desktop
