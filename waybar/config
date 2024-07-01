@@ -2,7 +2,7 @@
     "layer": "top",
     "modules-left": ["custom/launcher", "custom/media", "tray", "clock"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["backlight", "pulseaudio", "battery", "custom/power"],
+    "modules-right": ["backlight", "pulseaudio", "battery", "custom/power", "network"],
 
     "pulseaudio": {
         "tooltip": false,
@@ -83,4 +83,7 @@
         "format": "",
         "on-click": "/home/naturalcapsule/.config/rofi/powermenu/type-6/powermenu.sh"
     },
+    "custom/pywal": {
+        
+    }
 }

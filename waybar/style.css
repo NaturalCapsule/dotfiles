@@ -1,11 +1,15 @@
+
+@import url("/home/naturalcapsule/.cache/wal/colors-waybar.css");
+
 * {
 	border: none;
-	border-radius: 10;
-	padding-right: 7;
-	padding-left: 10;
-    font-family: "JetbrainsMono Nerd Font" ;
-	font-size: 15px;
-	min-height: 10px;
+	border-radius: 10px; /* Added px unit */
+	padding-right: 7px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+    font-family: "JetbrainsMono Nerd Font";
+	color: @foreground;
+	font-size: 15px; /* Added px unit */
+	min-height: 10px; /* Added px unit */
 }
 
 window#waybar {
@@ -22,25 +26,27 @@ tooltip {
 }
 
 tooltip label {
-	color: white;
+	color: @foreground;
 }
 
 #window {
-	margin-top: 6px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
     color: transparent;
 	background: transparent;
 }
+
 #workspaces {
-	margin-top: 6px;
-	margin-left: 12px;
-	font-size: 4px;
-	margin-bottom: 0px;
-	border-radius: 15px;
-	background: #F28FAD;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 12px; /* Added px unit */
+	font-size: 4px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 15px; /* Added px unit */
+	background: @color2;
+	/* color: @color1; */
 	transition: none;
 }
 
@@ -48,85 +54,88 @@ tooltip label {
 	padding-left: 0;
 	padding-right: 0;
 	transition: none;
-	color: #010101;
-	background: transparent;
-	font-size: 16px;
-	border-radius: 2px;
+	/* color: @color0; */
+	/* background: @color4; */
+	font-size: 16px; /* Added px unit */
+	border-radius: 1px; /* Added px unit */
+	border: 1
 }
 
 #workspaces button.occupied {
 	transition: none;
-	color: #5C7BB9;
-	background: transparent;
-	font-size: 4px;
+	color: @color1;
+	background: @background;
+	font-size: 4px; /* Added px unit */
 }
 
 #workspaces button.focused {
-	color: #ABE9B3;
-    border-top: 2px solid #ABE9B3;
-    border-bottom: 2px solid #ABE9B3;
+	color: @color10;
+    border-top: 2px solid @color10; /* Added px unit */
+    border-bottom: 2px solid @color10; /* Added px unit */
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
 	text-shadow: inherit;
-	color: #5C7BB9;
-    border-color: #5C7BB9;
-    color: #5C7BB9;
+	color: @color7;
+    border-color: @color1;
+    color: @color7;
 }
 
 #workspaces button.focused:hover {
-    color: #5C7BB9;
+    color: @color7;
 }
 
-/* Rest of the styles remain the same */
+#workspaces button.focused:active {
+    color: #000000;
+}
 
 #network {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #bd93f9;
+	color: @foreground;
+	background: @color4;
 }
 
 #pulseaudio {
 	border: 0px solid rgba(0, 0, 0, 0.5);
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 15px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 15px; /* Added px unit */
 	transition: none;
-	color: #1A1826;
-	background: #F28FAD;
+	color: @foreground;
+	background: @color4;
 }
 
 #battery {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #B5E8E0;
+	color: @foreground;
+	background: @color6;
 }
 
 #battery.charging, #battery.plugged {
-	color: #161320;
-    background-color: #B5E8E0;
+	color: @foreground;
+    background-color: @color6;
 }
 
 #battery.critical:not(.charging) {
-    background-color: #B5E8E0;
-    color: #161320;
+    background-color: @color6;
+    color: @foreground;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -134,119 +143,119 @@ tooltip label {
     animation-direction: alternate;
 }
 
-@keyframes blink {
+/* @keyframes blink {
     to {
-        background-color: #BF616A;
-        color: #5C7BB9;
+        background-color: @color1;
+        color: @color4;
     }
-}
+} */
 
 #backlight {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #F8BD96;
+	color: @foreground;
+	background: @color5;
 }
+
 #clock {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #5C7BB9;
-	/*background: #1A1826;*/
+	color: @color2;
+	background: @color7;
 }
 
 #memory {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	margin-bottom: 0px;
-	padding-right: 10px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #DDB6F2;
+	color: @foreground;
+	background: @color13;
 }
+
 #cpu {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	margin-bottom: 0px;
-	padding-right: 10px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #5C7BB9;
+	color: @foreground;
+	background: @color4;
 }
 
 #tray {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	margin-bottom: 0px;
-	padding-right: 10px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #B5E8E0;
-	background: #161320;
+	color: @color6;
+	background: @background;
 }
 
 #custom-launcher {
-	font-size: 30px;
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 15px;
+	font-size: 30px; /* Added px unit */
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	border-radius: 15px; /* Added px unit */
 	transition: none;
-    color: #5C7BB9;
-    background: #161320;
+    color: @color4;
+    background: @background;
 }
 
 #custom-power {
-	font-size: 30px;
-	margin-top: 6px;
-	margin-left: 8px;
-	margin-right: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 15px;
+	font-size: 30px; /* Added px unit */
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	margin-right: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 15px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #F28FAD;
+	color: @color11;
+	background: @color7;
 }
 
 #custom-wallpaper {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #C9CBFF;
+	color: @foreground;
+	background: @color12;
 }
 
-
 #custom-media {
-	margin-top: 6px;
-	margin-left: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 0px;
-	border-radius: 10px;
+	margin-top: 6px; /* Added px unit */
+	margin-left: 8px; /* Added px unit */
+	padding-left: 10px; /* Added px unit */
+	padding-right: 10px; /* Added px unit */
+	margin-bottom: 0px; /* Added px unit */
+	border-radius: 10px; /* Added px unit */
 	transition: none;
-	color: #161320;
-	background: #F2CDCD;
+	color: @foreground;
+	background: @color11;
 }

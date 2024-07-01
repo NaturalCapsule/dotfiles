@@ -32,6 +32,8 @@ swww img "$WALLPAPER_PATH"
 # Apply pywal colors
 wal -i "$WALLPAPER_PATH"
 
+python3 /home/naturalcapsule/.config/cava/color.py
+
 # Reload Kitty configuration
 kitty @ set-colors --all --reload
 
