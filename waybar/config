@@ -76,7 +76,7 @@
     },
     "custom/launcher": {
         "format": "",
-        "on-click": "/home/naturalcapsule/.config/rofi/launchers/type-7/launcher.sh",
+        "on-click": "rofi -show drun",
         "on-click-right": "killall rofi"
     },
     "custom/power": {
