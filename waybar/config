@@ -81,7 +81,7 @@
     },
     "custom/power": {
         "format": "",
-        "on-click": "/home/naturalcapsule/.config/rofi/powermenu/type-6/powermenu.sh"
+        "on-click": "wlogout"
     },
     "custom/pywal": {
         
