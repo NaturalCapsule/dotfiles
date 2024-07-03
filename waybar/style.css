@@ -1,15 +1,15 @@
 
 @import url("/home/naturalcapsule/.cache/wal/colors-waybar.css");
-
+/*
 * {
 	border: none;
-	border-radius: 10px; /* Added px unit */
-	padding-right: 7px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
+	border-radius: 10px;
+	padding-right: 7px;
+	padding-left: 10px;
     font-family: "JetbrainsMono Nerd Font";
 	color: @foreground;
-	font-size: 15px; /* Added px unit */
-	min-height: 10px; /* Added px unit */
+	font-size: 15px;
+	min-height: 10px;
 }
 
 window#waybar {
@@ -30,23 +30,22 @@ tooltip label {
 }
 
 #window {
-	margin-top: 6px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
 	transition: none;
     color: transparent;
 	background: transparent;
 }
 
 #workspaces {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 12px; /* Added px unit */
-	font-size: 4px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 15px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 12px;
+	font-size: 4px;
+	margin-bottom: 0px;
+	border-radius: 15px;
 	background: @color2;
-	/* color: @color1; */
 	transition: none;
 }
 
@@ -54,10 +53,8 @@ tooltip label {
 	padding-left: 0;
 	padding-right: 0;
 	transition: none;
-	/* color: @color0; */
-	/* background: @color4; */
-	font-size: 16px; /* Added px unit */
-	border-radius: 1px; /* Added px unit */
+	font-size: 16px;
+	border-radius: 1px;
 	border: 1
 }
 
@@ -65,18 +62,20 @@ tooltip label {
 	transition: none;
 	color: @color1;
 	background: @background;
-	font-size: 4px; /* Added px unit */
+	font-size: 4px;
 }
 
 #workspaces button.focused {
 	color: @color10;
-    border-top: 2px solid @color10; /* Added px unit */
-    border-bottom: 2px solid @color10; /* Added px unit */
+    border-top: 2px solid @color10;
+    border-bottom: 2px solid @color10;
 }
 
 #workspaces button:hover {
 	transition: none;
 	box-shadow: inherit;
+	border-radius: 10px;
+	border: 10px;
 	text-shadow: inherit;
 	color: @color7;
     border-color: @color1;
@@ -84,7 +83,7 @@ tooltip label {
 }
 
 #workspaces button.focused:hover {
-    color: @color7;
+    color: fuchsia;
 }
 
 #workspaces button.focused:active {
@@ -92,12 +91,12 @@ tooltip label {
 }
 
 #network {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color4;
@@ -105,24 +104,24 @@ tooltip label {
 
 #pulseaudio {
 	border: 0px solid rgba(0, 0, 0, 0.5);
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 15px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 15px;
 	transition: none;
 	color: @foreground;
 	background: @color4;
 }
 
 #battery {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color6;
@@ -143,119 +142,259 @@ tooltip label {
     animation-direction: alternate;
 }
 
-/* @keyframes blink {
-    to {
-        background-color: @color1;
-        color: @color4;
-    }
-} */
 
 #backlight {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color5;
 }
 
 #clock {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @color2;
 	background: @color7;
 }
 
 #memory {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color13;
 }
 
 #cpu {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color4;
 }
 
 #tray {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	border-radius: 10px;
 	transition: none;
 	color: @color6;
 	background: @background;
 }
 
 #custom-launcher {
-	font-size: 30px; /* Added px unit */
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	border-radius: 15px; /* Added px unit */
+	font-size: 30px;
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
 	transition: none;
     color: @color4;
     background: @background;
 }
 
 #custom-power {
-	font-size: 30px; /* Added px unit */
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	margin-right: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 15px; /* Added px unit */
+	font-size: 30px;
+	margin-top: 6px;
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 15px;
 	transition: none;
 	color: @color11;
 	background: @color7;
 }
 
 #custom-wallpaper {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color12;
 }
 
 #custom-media {
-	margin-top: 6px; /* Added px unit */
-	margin-left: 8px; /* Added px unit */
-	padding-left: 10px; /* Added px unit */
-	padding-right: 10px; /* Added px unit */
-	margin-bottom: 0px; /* Added px unit */
-	border-radius: 10px; /* Added px unit */
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
 	transition: none;
 	color: @foreground;
 	background: @color11;
+} */
+
+
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 10px;
+}
+
+window#waybar {
+    background-color: rgba(43, 48, 59, 0);
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#battery,
+#temperature,
+#cpu,
+#clock,
+#window,
+#workspaces,
+#custom-rofi,
+#custom-space,
+#tray,
+#pulseaudio,
+#backlight,
+#network,
+#custom-right,
+#custom-left {
+   color: @main-color;
+   background: @color4;
+   margin: 4px 0px 4px 0px;
+   opacity: 1;
+   border: 0px solid #181825;
+}
+
+tooltip {
+    background: @tool-bg;
+    color: @tool-color;
+    border-radius: 22px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ffffff;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.active {
+    background: @color1;
+    color: #FFFFFF;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button:hover {
+    background: @color7;
+    border: none;
+}
+
+#workspaces {
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#custom-rofi {
+    color: #ffffff; 
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+#temperature {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+#temperature.critical {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+#backlight {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+#pulseaudio {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+#battery {
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 19px;
+}
+
+#tray {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#network {
+   padding-left: 0px;
+   padding-right: 19px;
+}
+
+#clock {
+   color: #ffffff;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+#custom-right {
+    margin-right: 9px;
+    padding-right: 3px;
+    border-radius: 0px 22px 22px 0px;
+}
+
+#custom-left {
+    margin-left: 9px;
+    padding-left: 3px;
+    border-radius: 22px 0px 0px 22px;
 }

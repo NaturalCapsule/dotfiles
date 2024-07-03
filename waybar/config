@@ -1,89 +1,206 @@
-{
-    "layer": "top",
-    "modules-left": ["custom/launcher", "custom/media", "tray", "clock"],
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["backlight", "pulseaudio", "battery", "custom/power", "network"],
+// {
+//     "layer": "top",
+//     "modules-left": ["custom/launcher", "custom/media", "tray", "clock"],
+//     "modules-center": ["hyprland/workspaces"],
+//     "modules-right": ["backlight", "pulseaudio", "battery", "custom/power", "network"],
 
-    "pulseaudio": {
-        "tooltip": false,
-        "scroll-step": 5,
-        "format": "{icon}",
-        "format-muted": "{icon}",
-        "on-click": "pavucontrol",
-        "format-icons": {
-            "default": ["", "", ""]
-        }
-    },
+//     "pulseaudio": {
+//         "tooltip": false,
+//         "scroll-step": 5,
+//         "format": "{icon}",
+//         "format-muted": "{icon}",
+//         "on-click": "pavucontrol",
+//         "format-icons": {
+//             "default": ["", "", ""]
+//         }
+//     },
 
-    "hyprland/workspaces": {
-        "persistent-workspaces": {
-            "*": 5
-        },
-        "format": "{icon}",
-        "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1"
-    },
+//     "hyprland/workspaces": {
+//         "persistent-workspaces": {
+//             "*": 5
+//         },
+//         "format": "{icon}",
+//         "on-scroll-up": "hyprctl dispatch workspace e+1",
+//         "on-scroll-down": "hyprctl dispatch workspace e-1"
+//     },
 
-    "network": {
-        "tooltip": false,
-        "format-wifi": " {essid}",
-        "format-ethernet": ""
-    },
-    "backlight": {
-        "tooltip": false,
-        "format": " {}%",
-        "interval": 1,
-        "on-scroll-up": "light -A 5",
-        "on-scroll-down": "light -U 5"
-    },
+//     "network": {
+//         "tooltip": false,
+//         "format-wifi": " {essid}",
+//         "format-ethernet": ""
+//     },
+//     "backlight": {
+//         "tooltip": false,
+//         "format": " {}%",
+//         "interval": 1,
+//         "on-scroll-up": "light -A 5",
+//         "on-scroll-down": "light -U 5"
+//     },
 
-    "battery": {
-        "format": "{icon}  {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "tray": {
-        "icon-size": 18,
-        "spacing": 10
-    },
-    "clock": {
-        "format": "{:%H:%M}"
-    },
-    "cpu": {
-        "interval": 15,
-        "format": " {}%",
-        "max-length": 10
-    },
-    "memory": {
-        "interval": 30,
-        "format": " {}%",
-        "max-length": 10
-    },
-    "custom/media": {
-        "interval": 30,
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 20,
-        "format-icons": {
-            "spotify": " ",
-            "default": " "
-        },
-        "escape": true,
-        "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
-        "on-click": "playerctl play-pause"
-    },
-    "custom/launcher": {
-        "format": "",
-        "on-click": "rofi -show drun",
-        "on-click-right": "killall rofi"
-    },
-    "custom/power": {
-        "format": "",
-        "on-click": "wlogout"
-    },
-    "custom/pywal": {
+//     "battery": {
+//         "format": "{icon}  {capacity}%",
+//         "format-charging": " {capacity}%",
+//         "format-plugged": " {capacity}%",
+//         "format-alt": "{time} {icon}",
+//         "format-icons": ["", "", "", "", ""]
+//     },
+//     "tray": {
+//         "icon-size": 18,
+//         "spacing": 10
+//     },
+//     "clock": {
+//         "format": "{:%H:%M}"
+//     },
+//     "cpu": {
+//         "interval": 15,
+//         "format": " {}%",
+//         "max-length": 10
+//     },
+//     "memory": {
+//         "interval": 30,
+//         "format": " {}%",
+//         "max-length": 10
+//     },
+//     "custom/media": {
+//         "interval": 30,
+//         "format": "{icon} {}",
+//         "return-type": "json",
+//         "max-length": 20,
+//         "format-icons": {
+//             "spotify": " ",
+//             "default": " "
+//         },
+//         "escape": true,
+//         "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
+//         "on-click": "playerctl play-pause"
+//     },
+//     "custom/launcher": {
+//         "format": "",
+//         "on-click": "rofi -show drun",
+//         "on-click-right": "killall rofi"
+//     },
+//     "custom/power": {
+//         "format": "",
+//         "on-click": "wlogout"
+//     },
+//     "custom/pywal": {
         
+//     }
+// }
+
+
+{
+    // sourced from header module //
+    
+        "layer": "bottom",
+        "position": "top",
+        "mod": "dock",
+        "height": 35,
+        "exclusive": true,
+        "passthrough": false,
+        "gtk-layer-shell": true,
+    
+    
+        "modules-left": ["custom/left","custom/rofi","custom/space","hyprland/window","custom/right","custom/left","temperature","backlight","cpu","custom/right"],
+        "modules-center": ["custom/left","hyprland/workspaces","custom/right"],
+        "modules-right": ["custom/left","pulseaudio","network","clock","custom/right",],
+    
+    
+    "hyprland/window": {
+        "rewrite": {
+          "(.*) - Brave": "$1",
+          "(.*) - Chromium": "$1",
+          "(.*) - Brave Search": "$1",
+          "(.*) - Outlook": "$1",
+          "(.*) Microsoft Teams": "$1"
+        },
+        "separate-outputs": true
+      }, 
+    
+    "cpu": {
+            "interval": 10,
+            "format": "󰍛 {usage}%",
+            "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+            "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+        },
+    
+    
+       "network": {
+            "tooltip": true,
+            "format-wifi": "<span foreground='#ffffff'> {bandwidthDownBytes}</span> <span foreground='#ffffff'> {bandwidthUpBytes}</span>",
+            "format-ethernet": "<span foreground='#ffffff'> {bandwidthDownBytes}</span> <span foreground='#ffffff'> {bandwidthUpBytes}</span>",
+            "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>",
+            "format-linked": "󰈀 {ifname} (No IP)",
+            "format-disconnected": " 󰖪 ",
+            "tooltip-format-disconnected": "Disconnected",
+            "interval": 2
+      },
+    
+    
+        "custom/space": {
+            "format": "┃ {}",
+            "on-click": "wlogout"
+        },
+    
+         "custom/rofi": {
+            "format": "{}",
+            "on-click": "rofi -show drun"
+        },
+    
+        "hyprland/workspaces": {
+            "disable-scroll": true,
+            "all-outputs": true,
+            "on-click": "activate",
+            "persistent_workspaces": {
+                "1": [],
+                "2": [],
+                "3": [],
+                "4": [],
+                "5": []
+            }
+        },
+     
+        "pulseaudio": {
+            "format": "{icon} {volume}",
+            "format-muted": "",
+            "on-click": "pavucontrol -t 3",
+            "tooltip-format": "{icon} {desc} // {volume}%",
+            "scroll-step": 5,
+            "format-icons": {
+                "headphone": "",
+                "hands-free": "",
+                "headset": "",
+                "phone": "",
+                "portable": "",
+                "car": "",
+                "default": ["", "", ""]
+       }
+        },
+    
+    
+        "tray": {
+        "icon-size": 20,
+        "spacing": 9
+       },
+    
+    
+      "clock": {
+            "format": " {:%H:%M}"
+          },
+    
+    
+    // modules for padding //
+    
+        "custom/left": {
+            "format": " ",
+            "interval" : "once",
+            "tooltip": false
+        },
+    
+        "custom/right": {
+            "format": " ",
+            "interval" : "once",
+            "tooltip": false
+        },
+    
     }
-}
