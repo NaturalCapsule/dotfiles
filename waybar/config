@@ -1,94 +1,3 @@
-// {
-//     "layer": "top",
-//     "modules-left": ["custom/launcher", "custom/media", "tray", "clock"],
-//     "modules-center": ["hyprland/workspaces"],
-//     "modules-right": ["backlight", "pulseaudio", "battery", "custom/power", "network"],
-
-//     "pulseaudio": {
-//         "tooltip": false,
-//         "scroll-step": 5,
-//         "format": "{icon}",
-//         "format-muted": "{icon}",
-//         "on-click": "pavucontrol",
-//         "format-icons": {
-//             "default": ["", "", ""]
-//         }
-//     },
-
-//     "hyprland/workspaces": {
-//         "persistent-workspaces": {
-//             "*": 5
-//         },
-//         "format": "{icon}",
-//         "on-scroll-up": "hyprctl dispatch workspace e+1",
-//         "on-scroll-down": "hyprctl dispatch workspace e-1"
-//     },
-
-//     "network": {
-//         "tooltip": false,
-//         "format-wifi": " {essid}",
-//         "format-ethernet": ""
-//     },
-//     "backlight": {
-//         "tooltip": false,
-//         "format": " {}%",
-//         "interval": 1,
-//         "on-scroll-up": "light -A 5",
-//         "on-scroll-down": "light -U 5"
-//     },
-
-//     "battery": {
-//         "format": "{icon}  {capacity}%",
-//         "format-charging": " {capacity}%",
-//         "format-plugged": " {capacity}%",
-//         "format-alt": "{time} {icon}",
-//         "format-icons": ["", "", "", "", ""]
-//     },
-//     "tray": {
-//         "icon-size": 18,
-//         "spacing": 10
-//     },
-//     "clock": {
-//         "format": "{:%H:%M}"
-//     },
-//     "cpu": {
-//         "interval": 15,
-//         "format": " {}%",
-//         "max-length": 10
-//     },
-//     "memory": {
-//         "interval": 30,
-//         "format": " {}%",
-//         "max-length": 10
-//     },
-//     "custom/media": {
-//         "interval": 30,
-//         "format": "{icon} {}",
-//         "return-type": "json",
-//         "max-length": 20,
-//         "format-icons": {
-//             "spotify": " ",
-//             "default": " "
-//         },
-//         "escape": true,
-//         "exec": "$HOME/.config/system_scripts/mediaplayer.py 2> /dev/null",
-//         "on-click": "playerctl play-pause"
-//     },
-//     "custom/launcher": {
-//         "format": "",
-//         "on-click": "rofi -show drun",
-//         "on-click-right": "killall rofi"
-//     },
-//     "custom/power": {
-//         "format": "",
-//         "on-click": "wlogout"
-//     },
-//     "custom/pywal": {
-        
-//     }
-// }
-
-
 {
     // sourced from header module //
     
@@ -138,8 +47,7 @@
     
     
         "custom/space": {
-            "format": "┃ {}",
-            "on-click": "wlogout"
+            "format": "𐂳 {}",
         },
     
          "custom/rofi": {
