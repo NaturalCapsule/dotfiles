@@ -52,6 +52,10 @@ def execute_command(command):
         commands = 'yay -Syu'
         subprocess.run(["kitty", "-e", "sh", "-c", commands])
 
+    elif "open github" in command or "opne git hub" in command:
+        url = "https://github.com/"  # Replace with your desired URL
+        subprocess.Popen([r"firefox", url])        
+
     elif "computer shut down" in command or "computer am gay" in command or "computer I am gay" in command:
         os.system("shutdown now")
 
