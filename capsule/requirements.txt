@@ -1,0 +1,5 @@
+customtkinter==5.2.2
+psutil==6.0.0
+pillow==10.4.0
+sys
+subprocess
